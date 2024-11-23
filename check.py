@@ -62,6 +62,7 @@ def extract_class_and_name(filename):
     return class_name, student_name
 
 # 使用方法
-directory_to_check = "./workcheck"  # 替换为你的目录路径
+directory_to_check = "./workcheck"  
+# # directory_to_check = "./语料作业"
 excel_file_path = "名单.xlsx"  # 替换为你要保存的 Excel 文件路径
 check_txt_files(directory_to_check, excel_file_path)
